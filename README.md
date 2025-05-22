@@ -53,7 +53,7 @@ const App: React.FC = () => {
 }
 ```
 
-## Expo
+<!-- ## Expo
 
 - **Expo demo app**
 
@@ -76,4 +76,4 @@ SDK 53+
     <img src="https://zhiyabonsai.com/images/icon.png" alt="知芽App-属于盆景爱好者的专业AI社区" width="48">
     <a target="\_blank" rel="noopener" href="https://zhiyabonsai.com" style="color:#666;">知芽App-属于盆景爱好者的专业AI社区</a>
   </li>
-</ul>
+</ul> -->

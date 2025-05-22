@@ -8,15 +8,15 @@ group:
   path: /guide
 ---
 
-> 通过本章节你可以了解到 `小暑` 的安装方法和基本使用方式。
+> 通过本章节你可以了解到 `TuringUI` 的安装方法和基本使用方式。
 
 # 安装
 
 ### 通过 npm 安装
 
-在现有项目中使用 `小暑` 时，可以通过 npm 或 yarn 进行安装。
+在现有项目中使用 `TuringUI` 时，可以通过 npm 或 yarn 进行安装。
 
-> 推荐使用 yarn，npm 可能造成项目中存在多个版本 react native，引入 `小暑` 代码后红屏。
+> 推荐使用 yarn，npm 可能造成项目中存在多个版本 react native，引入 `TuringUI` 代码后红屏。
 
 ```bash
 ## npm

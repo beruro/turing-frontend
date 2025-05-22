@@ -1,7 +1,7 @@
 ---
 title: 🌈 React Native UI library
 hero:
-  title: 小暑 xiǎo shǔ
+  title: TuringUI
   description: 🌈 轻量、可靠的 React Native 组件库
   actions:
     - text: 快速上手 →
@@ -35,7 +35,7 @@ features:
 
 <div class="home-expo">
 
-## Expo
+<!-- ## Expo
 
 - **Expo demo app**
 
@@ -70,4 +70,4 @@ SDK 53+
 [![Platform - Android](https://img.shields.io/badge/platform-Android-3ddc84.svg?logo=android)](https://www.android.com)&nbsp;
 [![Platform - iOS](https://img.shields.io/badge/platform-iOS-000.svg?logo=apple)](https://developer.apple.com/ios)
 
-</div>
+</div> -->

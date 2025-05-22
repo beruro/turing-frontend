@@ -7,14 +7,14 @@ import './index.less'
 const Home = () => {
   return (
     <>
-      <h3 className="custom-home-h2">组件丰富，选用自如</h3>
+      {/* <h3 className="custom-home-h2">组件丰富，选用自如</h3>
       <p className="custom-home-desc">
         大量实用组件满足你的需求，灵活定制与拓展
-      </p>
+      </p> */}
 
-      <div className="custom-home-snapshoot">
+      {/* <div className="custom-home-snapshoot">
         <img src={Image} />
-      </div>
+      </div> */}
     </>
   )
 }

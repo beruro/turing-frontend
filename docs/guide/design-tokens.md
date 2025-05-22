@@ -10,7 +10,7 @@ group:
 
 # Design Tokens
 
-`小暑`目前采用「白露」设计规范。
+`TuringUI`目前采用「白露」设计规范。
 
 <code inline src="./code/design-tokens-vars.tsx"></code>
 
