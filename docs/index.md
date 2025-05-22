@@ -7,7 +7,7 @@ hero:
     - text: 快速上手 →
       link: /guide/quickstart
     - text: GitHub
-      link: https://github.com/24jieqi/react-native-xiaoshu
+      link: https://github.com/beruro/turing-frontend
 features:
   - emoji: 🔧
     title: 可定制
