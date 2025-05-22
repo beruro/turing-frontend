@@ -12,7 +12,7 @@ import {
   Space,
   Button,
   Popup,
-} from '@turing/react-native-ui'
+} from 'turing-react-native-ui'
 
 const BasicCollapse: React.FC = () => {
   const [value, setValue] = useState(false)

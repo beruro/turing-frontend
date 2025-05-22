@@ -11,7 +11,7 @@ import {
   Button,
   Card,
   Space,
-} from '@turing/react-native-ui'
+} from 'turing-react-native-ui'
 
 const BasicOverlay: React.FC = () => {
   const [state, setState] = useState<

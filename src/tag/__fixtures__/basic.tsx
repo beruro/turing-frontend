@@ -5,7 +5,7 @@
 
 import React from 'react'
 import { ScrollView } from 'react-native'
-import { Tag, Cell, Space } from '@turing/react-native-ui'
+import { Tag, Cell, Space } from 'turing-react-native-ui'
 import { PlayCircleFill } from '@fruits-chain/icons-react-native'
 import { View, Text } from 'react-native'
 

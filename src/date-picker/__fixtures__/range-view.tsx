@@ -10,7 +10,7 @@ import {
   Card,
   Space,
   Toast,
-} from '@turing/react-native-ui'
+} from 'turing-react-native-ui'
 
 const defaultValueView: [Date, Date] = [
   new Date(2020, 6, 20, 18, 40, 10),

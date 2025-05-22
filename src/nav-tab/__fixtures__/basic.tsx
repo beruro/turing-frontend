@@ -6,7 +6,7 @@
 import React, { useState } from 'react'
 import { View } from 'react-native'
 
-import { NavTab, Cell, Theme } from '@turing/react-native-ui'
+import { NavTab, Cell, Theme } from 'turing-react-native-ui'
 
 const options = new Array(3).fill(0).map((_, index) => ({
   value: index,

@@ -6,7 +6,7 @@
 import React from 'react'
 import { ScrollView } from 'react-native'
 
-import { Card, Space, Skeleton } from '@turing/react-native-ui'
+import { Card, Space, Skeleton } from 'turing-react-native-ui'
 
 const BasicCell: React.FC = () => {
   return (

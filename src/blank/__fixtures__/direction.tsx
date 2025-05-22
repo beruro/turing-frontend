@@ -5,7 +5,7 @@
 
 import React from 'react'
 import { Text, View, ViewStyle } from 'react-native'
-import { Blank, Card, Space, Divider } from '@turing/react-native-ui'
+import { Blank, Card, Space, Divider } from 'turing-react-native-ui'
 
 const ctxStyle = { backgroundColor: '#f5f5f5' }
 const cardBodyStyle = { backgroundColor: '#61649f' }

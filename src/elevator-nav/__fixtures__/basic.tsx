@@ -19,7 +19,7 @@ import {
   ElevatorNav,
   Button,
   TextInput,
-} from '@turing/react-native-ui'
+} from 'turing-react-native-ui'
 
 // const CustomKeyboardAwareScrollView = forwardRef<
 //   ScrollView,

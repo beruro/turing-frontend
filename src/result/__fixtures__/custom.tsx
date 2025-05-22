@@ -4,7 +4,7 @@
  */
 
 import { ArrowLeftOutline } from '@fruits-chain/icons-react-native'
-import { Button, Flex, Result, Space } from '@turing/react-native-ui'
+import { Button, Flex, Result, Space } from 'turing-react-native-ui'
 import { Text, View } from 'react-native'
 
 const ResultCustom = () => {

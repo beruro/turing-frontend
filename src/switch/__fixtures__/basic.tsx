@@ -1,7 +1,7 @@
 import React from 'react'
 import { ScrollView, View } from 'react-native'
 
-import { Card, Space } from '@turing/react-native-ui'
+import { Card, Space } from 'turing-react-native-ui'
 
 import BasicSwitchBase from './base'
 import BasicSwitchText from './text'

@@ -4,7 +4,7 @@
  */
 
 import React from 'react'
-import { Card, Form, Field } from '@turing/react-native-ui'
+import { Card, Form, Field } from 'turing-react-native-ui'
 
 let index = 0
 

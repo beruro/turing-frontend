@@ -4,7 +4,7 @@
  */
 
 import React, { useState } from 'react'
-import { Cell, Field } from '@turing/react-native-ui'
+import { Cell, Field } from 'turing-react-native-ui'
 
 const formatValueText = (_: Date, __: any, s: string) => {
   return `自定义：${s}`

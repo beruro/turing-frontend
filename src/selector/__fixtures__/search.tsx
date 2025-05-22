@@ -5,8 +5,8 @@
 
 import React from 'react'
 
-import type { SelectorOption } from '@turing/react-native-ui'
-import { Cell, Selector } from '@turing/react-native-ui'
+import type { SelectorOption } from 'turing-react-native-ui'
+import { Cell, Selector } from 'turing-react-native-ui'
 
 const BasicSelectorSearch: React.FC = () => {
   return (

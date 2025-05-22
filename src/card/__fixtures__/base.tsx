@@ -11,7 +11,7 @@ import {
   Button,
   Tag,
   Blank,
-} from '@turing/react-native-ui'
+} from 'turing-react-native-ui'
 
 const CardBase: React.FC = () => {
   return (

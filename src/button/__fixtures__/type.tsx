@@ -10,7 +10,7 @@ import {
   Card,
   Space,
   Divider,
-} from '@turing/react-native-ui'
+} from 'turing-react-native-ui'
 
 const onPress = () => {
   console.log('点击按钮 => ', new Date().getTime())

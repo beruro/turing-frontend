@@ -5,7 +5,7 @@
 
 import React, { memo } from 'react'
 
-import { Button, Card, Space } from '@turing/react-native-ui'
+import { Button, Card, Space } from 'turing-react-native-ui'
 import { ArrowLeftOutline } from '@fruits-chain/icons-react-native'
 
 const ButtonIcon: React.FC = () => {

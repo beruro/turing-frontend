@@ -6,7 +6,7 @@
 import React from 'react'
 import { Text } from 'react-native'
 
-import { Cell, Tag } from '@turing/react-native-ui'
+import { Cell, Tag } from 'turing-react-native-ui'
 
 const CellExtra: React.FC = () => {
   return (

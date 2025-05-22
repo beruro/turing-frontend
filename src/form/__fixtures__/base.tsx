@@ -11,7 +11,7 @@ import {
   Button,
   Toast,
   Space,
-} from '@turing/react-native-ui'
+} from 'turing-react-native-ui'
 
 const BasicFormBase: React.FC = () => {
   const [form] = Form.useForm()

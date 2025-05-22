@@ -10,7 +10,7 @@ import {
   Card,
   Space,
   Divider,
-} from '@turing/react-native-ui'
+} from 'turing-react-native-ui'
 
 const ButtonDisabled: React.FC = () => {
   return (

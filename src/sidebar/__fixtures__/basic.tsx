@@ -6,7 +6,7 @@
 import React from 'react'
 import { ScrollView, View } from 'react-native'
 
-import { Sidebar, Space, Theme } from '@turing/react-native-ui'
+import { Sidebar, Space, Theme } from 'turing-react-native-ui'
 
 const nullArray = []
 

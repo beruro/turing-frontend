@@ -6,7 +6,7 @@
 import React from 'react'
 import { Text } from 'react-native'
 
-import { NavBar, Cell } from '@turing/react-native-ui'
+import { NavBar, Cell } from 'turing-react-native-ui'
 
 const BasicNavBar: React.FC = () => {
   return (

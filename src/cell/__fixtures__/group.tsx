@@ -6,7 +6,7 @@
 import React from 'react'
 import { Text, View } from 'react-native'
 
-import { Cell, Toast, Space, Theme } from '@turing/react-native-ui'
+import { Cell, Toast, Space, Theme } from 'turing-react-native-ui'
 
 const CellGroup: React.FC = () => {
   const { gray_1, gray_3 } = Theme.useThemeTokens()

@@ -13,7 +13,7 @@ import {
   Button,
   Uploader,
   Theme,
-} from '@turing/react-native-ui'
+} from 'turing-react-native-ui'
 
 const list = [
   {

@@ -3,7 +3,7 @@
  * description: 共有两个大小可以选择。
  */
 
-import { NoticeBar, Space } from '@turing/react-native-ui'
+import { NoticeBar, Space } from 'turing-react-native-ui'
 
 const NoticeBarSize = () => {
   return (

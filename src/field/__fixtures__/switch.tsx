@@ -4,7 +4,7 @@
  */
 
 import React, { useState } from 'react'
-import { Cell, Field } from '@turing/react-native-ui'
+import { Cell, Field } from 'turing-react-native-ui'
 
 const BasicFieldSwitch: React.FC = () => {
   const [value, setValue] = useState(true)

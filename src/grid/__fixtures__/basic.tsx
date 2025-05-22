@@ -6,7 +6,7 @@
 import React from 'react'
 import { Text, ScrollView, StyleSheet } from 'react-native'
 
-import { Row, Col, Space, Card } from '@turing/react-native-ui'
+import { Row, Col, Space, Card } from 'turing-react-native-ui'
 
 const Styles = StyleSheet.create({
   card: {

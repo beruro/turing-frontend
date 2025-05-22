@@ -5,7 +5,7 @@
 
 import React from 'react'
 
-import { Description, Card, Space } from '@turing/react-native-ui'
+import { Description, Card, Space } from 'turing-react-native-ui'
 
 const d = new Date()
 

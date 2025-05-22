@@ -4,7 +4,7 @@
  */
 
 import React, { useState } from 'react'
-import { Cell, Field, Button } from '@turing/react-native-ui'
+import { Cell, Field, Button } from 'turing-react-native-ui'
 
 const BasicFieldTextInput: React.FC = () => {
   const [text1, setText1] = useState('')

@@ -1,6 +1,6 @@
 import React from 'react'
 import { ScrollView } from 'react-native'
-import { Button, Card, Space } from '@turing/react-native-ui'
+import { Button, Card, Space } from 'turing-react-native-ui'
 
 import ButtonType from './type'
 import ButtonDanger from './danger'

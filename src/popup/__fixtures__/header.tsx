@@ -6,7 +6,7 @@
 import React from 'react'
 import { Text } from 'react-native'
 
-import { Blank, Space, Popup } from '@turing/react-native-ui'
+import { Blank, Space, Popup } from 'turing-react-native-ui'
 
 const BasicPopupHeader: React.FC = () => {
   return (

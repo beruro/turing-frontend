@@ -3,7 +3,7 @@
  * description: 共有四种样式 primary、success、warning、error。
  */
 
-import { NoticeBar, Space } from '@turing/react-native-ui'
+import { NoticeBar, Space } from 'turing-react-native-ui'
 
 const NoticeBarStatus = () => {
   return (

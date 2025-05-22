@@ -3,7 +3,7 @@
  * description: 内置几种图标。
  */
 
-import { Result, Space } from '@turing/react-native-ui'
+import { Result, Space } from 'turing-react-native-ui'
 
 const ResultIcon = () => {
   return (

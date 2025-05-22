@@ -6,8 +6,8 @@
 import React from 'react'
 import { ScrollView } from 'react-native'
 
-import type { PickerOptionCascade } from '@turing/react-native-ui'
-import { Picker, Button, Cell, Space } from '@turing/react-native-ui'
+import type { PickerOptionCascade } from 'turing-react-native-ui'
+import { Picker, Button, Cell, Space } from 'turing-react-native-ui'
 
 const columns1 = new Array(10).fill(0).map((_, index) => ({
   label: `选项${index}`,

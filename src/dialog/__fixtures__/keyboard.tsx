@@ -12,7 +12,7 @@ import {
   Button,
   Blank,
   Space,
-} from '@turing/react-native-ui'
+} from 'turing-react-native-ui'
 import { Keyboard } from 'react-native'
 
 const BasicDialogKeyboard: React.FC = () => {

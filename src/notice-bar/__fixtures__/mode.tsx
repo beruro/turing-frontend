@@ -3,7 +3,7 @@
  * description: 共有两个种模式可以使用。
  */
 
-import { NoticeBar, Space } from '@turing/react-native-ui'
+import { NoticeBar, Space } from 'turing-react-native-ui'
 
 const NoticeBarMode = () => {
   return (

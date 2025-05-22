@@ -5,8 +5,8 @@
 
 import React, { useState } from 'react'
 
-import type { SelectorOption } from '@turing/react-native-ui'
-import { Cell, Selector, Field } from '@turing/react-native-ui'
+import type { SelectorOption } from 'turing-react-native-ui'
+import { Cell, Selector, Field } from 'turing-react-native-ui'
 
 const units: SelectorOption[] = [
   {

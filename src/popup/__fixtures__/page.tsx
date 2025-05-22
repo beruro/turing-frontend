@@ -13,7 +13,7 @@ import {
   Button,
   Field,
   ButtonBar,
-} from '@turing/react-native-ui'
+} from 'turing-react-native-ui'
 
 const BasicPopupPage: React.FC = () => {
   const [pageVisible, setPageVisible] = useState(false)

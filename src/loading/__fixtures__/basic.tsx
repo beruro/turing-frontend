@@ -5,7 +5,7 @@
 
 import React, { useEffect, useRef } from 'react'
 
-import { Loading, Cell } from '@turing/react-native-ui'
+import { Loading, Cell } from 'turing-react-native-ui'
 import { DoubleArrowClockwiseOutline } from '@fruits-chain/icons-react-native'
 import { Animated, ColorValue } from 'react-native'
 

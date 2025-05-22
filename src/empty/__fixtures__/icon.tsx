@@ -4,7 +4,7 @@
  */
 
 import { ArrowDownOutline } from '@fruits-chain/icons-react-native'
-import { Empty, Space } from '@turing/react-native-ui'
+import { Empty, Space } from 'turing-react-native-ui'
 
 const EmptyIcon = () => {
   return (

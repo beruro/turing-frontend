@@ -10,7 +10,7 @@ import {
   Card,
   Space,
   Divider,
-} from '@turing/react-native-ui'
+} from 'turing-react-native-ui'
 import { ArrowDownOutline } from '@fruits-chain/icons-react-native'
 
 const onPress = () => {

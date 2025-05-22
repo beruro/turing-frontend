@@ -5,7 +5,7 @@
 
 import React from 'react'
 
-import { Cell } from '@turing/react-native-ui'
+import { Cell } from 'turing-react-native-ui'
 
 const CellDivider: React.FC = () => {
   return (

@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Button } from '@turing/react-native-ui'
+import { Button } from 'turing-react-native-ui'
 
 import BaseFloatingPanel from './base'
 import BaseFloatingPanel2 from './base2'

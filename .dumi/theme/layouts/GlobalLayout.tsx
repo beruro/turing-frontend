@@ -1,4 +1,4 @@
-import { Provider, Theme } from '@turing/react-native-ui'
+import { Provider, Theme } from 'turing-react-native-ui'
 import { useOutlet, usePrefersColor } from 'dumi'
 import React from 'react'
 

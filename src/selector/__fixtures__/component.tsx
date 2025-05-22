@@ -5,7 +5,7 @@
 
 import React, { useState } from 'react'
 
-import { Cell, Selector } from '@turing/react-native-ui'
+import { Cell, Selector } from 'turing-react-native-ui'
 
 const BasicSelectorComponent: React.FC = () => {
   const [state, setState] = useState<{

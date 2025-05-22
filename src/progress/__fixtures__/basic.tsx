@@ -11,7 +11,7 @@ import {
   Button,
   Card,
   Space,
-} from '@turing/react-native-ui'
+} from 'turing-react-native-ui'
 
 const TestRender = () => {
   const index = useRef(0)

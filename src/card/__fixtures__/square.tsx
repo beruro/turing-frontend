@@ -5,7 +5,7 @@
 
 import React from 'react'
 import { Text } from 'react-native'
-import { Card, Button, Space, Blank } from '@turing/react-native-ui'
+import { Card, Button, Space, Blank } from 'turing-react-native-ui'
 
 const CardSquare: React.FC = () => {
   return (

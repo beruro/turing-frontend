@@ -12,7 +12,7 @@ import {
   Button,
   TextInput,
   ButtonBar,
-} from '@turing/react-native-ui'
+} from 'turing-react-native-ui'
 
 const BasicPopupKeyboardShim: React.FC = () => {
   const [visible, setVisible] = useState(false)

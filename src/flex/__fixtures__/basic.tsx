@@ -5,7 +5,7 @@
 
 import React from 'react'
 import { View, Text, ScrollView } from 'react-native'
-import { Button, Flex, Card, Space } from '@turing/react-native-ui'
+import { Button, Flex, Card, Space } from 'turing-react-native-ui'
 
 const Circle = (props: { size?: number }) => {
   const size = props.size || 20

@@ -13,7 +13,7 @@ import {
   Blank,
   Field,
   Button,
-} from '@turing/react-native-ui'
+} from 'turing-react-native-ui'
 
 const T = () => {
   const [text, setText] = useState('')

@@ -6,7 +6,7 @@
 import React from 'react'
 import { ScrollView } from 'react-native'
 
-import { Space } from '@turing/react-native-ui'
+import { Space } from 'turing-react-native-ui'
 
 import DescriptionBase from './base'
 import DescriptionSize from './size'

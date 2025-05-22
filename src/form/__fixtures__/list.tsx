@@ -12,7 +12,7 @@ import {
   Toast,
   Dialog,
   Space,
-} from '@turing/react-native-ui'
+} from 'turing-react-native-ui'
 import { DeleteFill } from '@fruits-chain/icons-react-native'
 
 const BasicFormList: React.FC = () => {

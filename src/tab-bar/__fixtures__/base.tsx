@@ -6,7 +6,7 @@
 import React, { useState } from 'react'
 import type { ViewStyle } from 'react-native'
 
-import { TabBar, Button, Space } from '@turing/react-native-ui'
+import { TabBar, Button, Space } from 'turing-react-native-ui'
 import {
   EyeOutline,
   SearchOutline,

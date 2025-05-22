@@ -5,7 +5,7 @@
 
 import React, { useState } from 'react'
 
-import { Switch, Space } from '@turing/react-native-ui'
+import { Switch, Space } from 'turing-react-native-ui'
 
 const BasicSwitchBase: React.FC = () => {
   const [state, setState] = useState(false)

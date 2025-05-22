@@ -6,7 +6,7 @@ import {
   ButtonBar,
   Space,
   ButtonBarProps,
-} from '@turing/react-native-ui'
+} from 'turing-react-native-ui'
 
 const buttons: ButtonBarProps['buttons'] = [
   {

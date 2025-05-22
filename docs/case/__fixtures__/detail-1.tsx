@@ -17,7 +17,7 @@ import {
   Theme,
   Dialog,
   Toast,
-} from '@turing/react-native-ui'
+} from 'turing-react-native-ui'
 
 const CaseDetail1: React.FC = () => {
   const TOKENS = Theme.useThemeTokens()

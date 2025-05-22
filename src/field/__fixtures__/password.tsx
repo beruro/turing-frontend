@@ -4,7 +4,7 @@
  */
 
 import React from 'react'
-import { Cell, Field } from '@turing/react-native-ui'
+import { Cell, Field } from 'turing-react-native-ui'
 
 const BasicFieldTextInput: React.FC = () => {
   return (

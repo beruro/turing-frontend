@@ -6,7 +6,7 @@
 import React from 'react'
 import { Text, View, useWindowDimensions } from 'react-native'
 import { useSafeAreaInsets } from 'react-native-safe-area-context'
-import { FloatingPanel } from '@turing/react-native-ui'
+import { FloatingPanel } from 'turing-react-native-ui'
 
 const BaseFloatingPanel: React.FC = () => {
   const insets = useSafeAreaInsets()

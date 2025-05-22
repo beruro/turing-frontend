@@ -5,7 +5,7 @@
 
 import React from 'react'
 
-import { Cell, Dialog } from '@turing/react-native-ui'
+import { Cell, Dialog } from 'turing-react-native-ui'
 
 const BasicDialogBase: React.FC = () => {
   return (

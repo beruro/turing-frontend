@@ -6,7 +6,7 @@
 import React from 'react'
 import { Text } from 'react-native'
 
-import { Cell, NumberInput, Space } from '@turing/react-native-ui'
+import { Cell, NumberInput, Space } from 'turing-react-native-ui'
 
 const consoleNum = (n: number) => {
   console.log('[新数据]  ->  ', n)
