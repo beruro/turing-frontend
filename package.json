@@ -46,6 +46,7 @@
         "doc:github-build": "cross-env PUBLIC_PATH=turing-frontend/ dumi build",
         "prepare": "husky install && dumi setup",
         "build": "bob build",
+        "setup-release": "node scripts/setup-release.js",
         "release": "release-it",
         "release:beta": "release-it --preRelease=beta",
         "release:major": "release-it major",
