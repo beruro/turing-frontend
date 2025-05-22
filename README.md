@@ -22,7 +22,7 @@ React Native UI library for Turing Team
 
 ![](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-![](./snapshoot.png)
+<!-- ![](./snapshoot.png) -->
 
 ## 特点
 
