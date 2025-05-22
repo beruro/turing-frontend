@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.1.3](https://github.com/beruro/turing-frontend/compare/v0.1.2...v0.1.3) (2025-05-22)
+
+### Bug Fixes
+
+- readme ([cea256b](https://github.com/beruro/turing-frontend/commit/cea256baaf6f0548c75e9336becbc69fb603883e))
+
 ## [0.1.2](https://github.com/beruro/turing-frontend/compare/v0.1.1...v0.1.2) (2025-05-22)
 
 ## 0.1.1 (2025-05-22)
