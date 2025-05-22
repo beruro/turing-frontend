@@ -1,5 +1,5 @@
 {
-    "name": "@turing/react-native-ui",
+    "name": "turing-react-native-ui",
     "description": "🌈 Turing Frontend React Native UI Library",
     "version": "0.1.0",
     "main": "lib/commonjs/index.js",
@@ -20,13 +20,13 @@
         "typescript"
     ],
     "license": "Apache-2.0",
-    "homepage": "https://github.com/your-organization/turing-frontend",
+    "homepage": "https://github.com/beruro/turing-frontend",
     "repository": {
         "type": "git",
-        "url": "https://github.com/your-organization/turing-frontend"
+        "url": "https://github.com/beruro/turing-frontend"
     },
     "bugs": {
-        "url": "https://github.com/your-organization/turing-frontend/issues"
+        "url": "https://github.com/beruro/turing-frontend/issues"
     },
     "publishConfig": {
         "registry": "https://registry.npmjs.org"
@@ -43,7 +43,7 @@
         "prettier": "prettier --write '{src,demo}/**/*.{js,json,yml,yaml,ts,tsx,md}'",
         "lint-staged": "lint-staged --allow-empty",
         "doc": "dumi dev",
-        "doc:github-build": "cross-env PUBLIC_PATH=react-native-xiaoshu/ dumi build",
+        "doc:github-build": "cross-env PUBLIC_PATH=turing-frontend/ dumi build",
         "prepare": "husky install && dumi setup",
         "build": "bob build",
         "release": "release-it",
@@ -162,7 +162,7 @@
             "release": true
         },
         "npm": {
-            "publish": false
+            "publish": true
         },
         "plugins": {
             "@release-it/conventional-changelog": {

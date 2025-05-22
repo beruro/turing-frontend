@@ -6,15 +6,15 @@ const repo = process.env.PUBLIC_PATH || ''
 const publicPath = repo ? `/${repo}` : '/'
 
 export default defineConfig({
-  title: '小暑 xiǎo shǔ - 轻量、可靠的 React Native 组件库',
+  title: 'Turing UI - 轻量、可靠的 React Native 组件库',
   favicons: [
-    'https://raw.githubusercontent.com/24jieqi/react-native-xiaoshu/main/logo-xiaoshu.svg',
+    'https://raw.githubusercontent.com/beruro/turing-frontend/main/logo.svg',
   ],
   metas: [
     { name: 'keywords', content: 'react,react native,组件库,expo' },
     {
       name: 'description',
-      content: '小暑 xiǎo shǔ - 轻量、可靠的 React Native 组件库.',
+      content: 'Turing UI - 轻量、可靠的 React Native 组件库.',
     },
   ],
   define: {
@@ -44,15 +44,15 @@ export default defineConfig({
     // https://mmomtchev.medium.com/bundling-react-native-for-the-web-with-webpack-and-typescript-ba42db25584
     'react-native-safe-area-context':
       'expo-dev-menu/vendored/react-native-safe-area-context/src',
-    // '@fruits-chain/react-native-xiaoshu': path.join(__dirname, 'src'),
+    // 'turing-react-native-ui': path.join(__dirname, 'src'),
   },
 
   themeConfig: {
-    name: '小暑',
-    logo: 'https://raw.githubusercontent.com/24jieqi/react-native-xiaoshu/main/logo-xiaoshu.svg',
+    name: 'Turing UI',
+    logo: 'https://raw.githubusercontent.com/beruro/turing-frontend/main/logo.svg',
     footer: false,
     socialLinks: {
-      github: 'https://github.com/24jieqi/react-native-xiaoshu',
+      github: 'https://github.com/beruro/turing-frontend',
     },
     deviceWidth: 375,
     nav: [
@@ -70,7 +70,7 @@ export default defineConfig({
       },
       {
         title: '更新日志',
-        link: 'https://github.com/24jieqi/react-native-xiaoshu/releases',
+        link: 'https://github.com/beruro/turing-frontend/releases',
       },
     ],
   },
