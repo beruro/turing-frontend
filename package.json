@@ -156,19 +156,32 @@
     "release-it": {
         "git": {
             "commitMessage": "chore: release ${version}",
-            "tagName": "v${version}"
+            "tagName": "v${version}",
+            "push": true
         },
         "github": {
-            "release": true
+            "release": true,
+            "releaseName": "v${version}",
+            "tokenRef": "GITHUB_TOKEN",
+            "assets": [
+                "*.tgz"
+            ]
         },
         "npm": {
-            "publish": true
+            "publish": true,
+            "skipChecks": true
+        },
+        "hooks": {
+            "before:init": [
+                "yarn lint",
+                "yarn build"
+            ],
+            "after:bump": "yarn pack"
         },
         "plugins": {
             "@release-it/conventional-changelog": {
                 "preset": "angular",
-                "infile": false,
-                "ignoreRecommendedBump": true
+                "infile": "CHANGELOG.md"
             }
         }
     },

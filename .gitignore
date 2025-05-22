@@ -9,6 +9,14 @@ coverage
 .dumi/tmp-test
 .dumi/tmp-production
 
+# Environment variables
+.env
+.env.local
+.env.*
+
+# Package files
+*.tgz
+
 # OSX
 #
 .DS_Store
