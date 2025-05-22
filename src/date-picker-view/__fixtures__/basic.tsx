@@ -6,8 +6,8 @@
 import React, { useState } from 'react'
 import { ScrollView } from 'react-native'
 
-import type { DatePickerColumnMode } from '@fruits-chain/react-native-xiaoshu'
-import { DatePickerView, Cell } from '@fruits-chain/react-native-xiaoshu'
+import type { DatePickerColumnMode } from '@turing/react-native-ui'
+import { DatePickerView, Cell } from '@turing/react-native-ui'
 
 const Y_M_LIMIT = {
   min: new Date(2022, 1, 20, 18, 40, 10),

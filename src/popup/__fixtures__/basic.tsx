@@ -5,7 +5,7 @@
 
 import React from 'react'
 import { ScrollView } from 'react-native'
-import { Space } from '@fruits-chain/react-native-xiaoshu'
+import { Space } from '@turing/react-native-ui'
 
 import PopupHeader from './header'
 import PopupPopup from './popup'

@@ -5,7 +5,7 @@
 
 import React from 'react'
 
-import { Switch, Space } from '@fruits-chain/react-native-xiaoshu'
+import { Switch, Space } from '@turing/react-native-ui'
 import { CrossOutline, SuccessOutline } from '@fruits-chain/icons-react-native'
 
 const BasicSwitchText: React.FC = () => {

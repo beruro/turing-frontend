@@ -5,7 +5,7 @@
 
 import React from 'react'
 
-import { Cell, Dialog } from '@fruits-chain/react-native-xiaoshu'
+import { Cell, Dialog } from '@turing/react-native-ui'
 
 const BasicDialogBase: React.FC = () => {
   return (

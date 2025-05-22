@@ -6,7 +6,7 @@
 import React, { useState } from 'react'
 import { View, type ViewStyle } from 'react-native'
 
-import { TabBar, Space } from '@fruits-chain/react-native-xiaoshu'
+import { TabBar, Space } from '@turing/react-native-ui'
 import {
   EyeOutline,
   SearchOutline,

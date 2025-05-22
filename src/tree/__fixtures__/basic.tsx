@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-import { Blank, TabBar, Flex } from '@fruits-chain/react-native-xiaoshu'
+import { Blank, TabBar, Flex } from '@turing/react-native-ui'
 
 import TreeBase from './base'
 import TreeMultiple from './multiple'

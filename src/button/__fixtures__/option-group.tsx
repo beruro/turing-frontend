@@ -10,7 +10,7 @@ import {
   Card,
   Space,
   Divider,
-} from '@fruits-chain/react-native-xiaoshu'
+} from '@turing/react-native-ui'
 import { View } from 'react-native'
 
 const options = new Array(10).fill(0).map((_, index) => ({

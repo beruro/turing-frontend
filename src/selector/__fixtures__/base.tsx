@@ -6,8 +6,8 @@
 import React from 'react'
 import { Text, View } from 'react-native'
 
-import { SelectorOption, Toast } from '@fruits-chain/react-native-xiaoshu'
-import { Cell, Selector } from '@fruits-chain/react-native-xiaoshu'
+import { SelectorOption, Toast } from '@turing/react-native-ui'
+import { Cell, Selector } from '@turing/react-native-ui'
 
 const BasicSelectorBase: React.FC = () => {
   return (

@@ -13,7 +13,7 @@ import {
   Button,
   Field,
   ButtonBar,
-} from '@fruits-chain/react-native-xiaoshu'
+} from '@turing/react-native-ui'
 
 const BasicPopupPage: React.FC = () => {
   const [pageVisible, setPageVisible] = useState(false)

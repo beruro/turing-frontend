@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
-import type { PickerOptionCascade } from '@fruits-chain/react-native-xiaoshu'
-import { PickerView, Cell } from '@fruits-chain/react-native-xiaoshu'
+import type { PickerOptionCascade } from '@turing/react-native-ui'
+import { PickerView, Cell } from '@turing/react-native-ui'
 
 const buildChildren = (
   num: number,

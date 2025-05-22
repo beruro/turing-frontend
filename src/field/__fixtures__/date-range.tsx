@@ -4,7 +4,7 @@
  */
 
 import React, { useState } from 'react'
-import { Cell, Field, Toast } from '@fruits-chain/react-native-xiaoshu'
+import { Cell, Field, Toast } from '@turing/react-native-ui'
 
 const formatValueText = (
   _: [Date, Date],

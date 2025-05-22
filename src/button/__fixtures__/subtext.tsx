@@ -11,7 +11,7 @@ import {
   Card,
   Space,
   Divider,
-} from '@fruits-chain/react-native-xiaoshu'
+} from '@turing/react-native-ui'
 
 const onPress = () => {
   console.log('点击按钮 => ', new Date().getTime())

@@ -13,7 +13,7 @@ import {
   Portal,
   Tree,
   Theme,
-} from '@fruits-chain/react-native-xiaoshu'
+} from '@turing/react-native-ui'
 
 const itemOptions = [
   { label: '全部商品', value: null, badge: true },

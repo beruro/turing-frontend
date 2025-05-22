@@ -13,7 +13,7 @@ import {
   Blank,
   Field,
   Button,
-} from '@fruits-chain/react-native-xiaoshu'
+} from '@turing/react-native-ui'
 
 const T = () => {
   const [text, setText] = useState('')

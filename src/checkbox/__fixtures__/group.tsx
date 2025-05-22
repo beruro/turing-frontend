@@ -9,7 +9,7 @@ import {
   Card,
   Space,
   Divider,
-} from '@fruits-chain/react-native-xiaoshu'
+} from '@turing/react-native-ui'
 import { Text } from 'react-native'
 
 const options = new Array(6).fill(0).map((_, index) => ({

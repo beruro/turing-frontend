@@ -6,7 +6,7 @@
 import React from 'react'
 import { Text } from 'react-native'
 
-import { NavBar, Cell } from '@fruits-chain/react-native-xiaoshu'
+import { NavBar, Cell } from '@turing/react-native-ui'
 
 const BasicNavBar: React.FC = () => {
   return (

@@ -6,7 +6,7 @@
 import React, { useState, useEffect, useRef } from 'react'
 import { View, ScrollView } from 'react-native'
 
-import { Cell, Toast } from '@fruits-chain/react-native-xiaoshu'
+import { Cell, Toast } from '@turing/react-native-ui'
 import { ArrowLeftOutline } from '@fruits-chain/icons-react-native'
 
 const BasicToast: React.FC = () => {

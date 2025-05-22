@@ -6,7 +6,7 @@
 import React from 'react'
 import { ScrollView } from 'react-native'
 
-import { Space, Blank } from '@fruits-chain/react-native-xiaoshu'
+import { Space, Blank } from '@turing/react-native-ui'
 
 import DatePickerViewSingle from './single'
 import DatePickerViewRangeView from './range-view'

@@ -10,7 +10,7 @@ import {
   Button,
   Card,
   Space,
-} from '@fruits-chain/react-native-xiaoshu'
+} from '@turing/react-native-ui'
 
 const Y_M_LIMIT = {
   min: new Date(2016, 6, 20, 18, 40, 10),

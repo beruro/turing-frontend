@@ -5,7 +5,7 @@
 
 import React, { memo } from 'react'
 
-import { Button, Card, Space } from '@fruits-chain/react-native-xiaoshu'
+import { Button, Card, Space } from '@turing/react-native-ui'
 
 const ButtonSize: React.FC = () => {
   return (

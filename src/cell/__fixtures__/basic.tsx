@@ -1,7 +1,7 @@
 import React from 'react'
 import { ScrollView } from 'react-native'
 
-import { Cell } from '@fruits-chain/react-native-xiaoshu'
+import { Cell } from '@turing/react-native-ui'
 import CellBase from './base'
 import CellDivider from './divider'
 import CellLayout from './layout'

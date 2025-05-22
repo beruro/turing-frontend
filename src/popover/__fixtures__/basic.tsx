@@ -13,7 +13,7 @@ import {
   Space,
   Theme,
   Toast,
-} from '@fruits-chain/react-native-xiaoshu'
+} from '@turing/react-native-ui'
 
 const onSelect = (v: string, index: number) => {
   Toast(`第 ${index} 个选项 => ${v}`)

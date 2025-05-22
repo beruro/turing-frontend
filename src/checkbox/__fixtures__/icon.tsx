@@ -4,7 +4,7 @@
  */
 
 import React, { useState } from 'react'
-import { Checkbox, Card, Space } from '@fruits-chain/react-native-xiaoshu'
+import { Checkbox, Card, Space } from '@turing/react-native-ui'
 
 const CheckboxIcon: React.FC = () => {
   const [active, setActive] = useState(false)

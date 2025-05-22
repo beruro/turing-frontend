@@ -3,7 +3,7 @@
  * description: 共有四种样式 info、success、warning、error。
  */
 
-import { Result, Space } from '@fruits-chain/react-native-xiaoshu'
+import { Result, Space } from '@turing/react-native-ui'
 
 const ResultStatus = () => {
   return (

@@ -5,7 +5,7 @@
 
 import React, { useState } from 'react'
 
-import { Cell, PasswordInput } from '@fruits-chain/react-native-xiaoshu'
+import { Cell, PasswordInput } from '@turing/react-native-ui'
 
 const BasicPasswordInput: React.FC = () => {
   const [value, setValue] = useState(false)

@@ -2,7 +2,7 @@ import React from 'react'
 import type { ViewStyle } from 'react-native'
 import { ScrollView, Text } from 'react-native'
 
-import { TabBar, Space, Divider } from '@fruits-chain/react-native-xiaoshu'
+import { TabBar, Space, Divider } from '@turing/react-native-ui'
 import {
   EyeOutline,
   SearchOutline,

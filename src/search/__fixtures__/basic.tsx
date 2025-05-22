@@ -11,7 +11,7 @@ import {
   ActionSheet,
   Button,
   Popup,
-} from '@fruits-chain/react-native-xiaoshu'
+} from '@turing/react-native-ui'
 import { MenuOutline } from '@fruits-chain/icons-react-native'
 import { ScrollView, Text, View, Keyboard } from 'react-native'
 

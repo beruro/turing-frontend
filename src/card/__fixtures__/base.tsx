@@ -11,7 +11,7 @@ import {
   Button,
   Tag,
   Blank,
-} from '@fruits-chain/react-native-xiaoshu'
+} from '@turing/react-native-ui'
 
 const CardBase: React.FC = () => {
   return (

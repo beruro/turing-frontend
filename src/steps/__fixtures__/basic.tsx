@@ -5,7 +5,7 @@
 
 import React from 'react'
 import { ScrollView, Text } from 'react-native'
-import { Steps, Cell, Space } from '@fruits-chain/react-native-xiaoshu'
+import { Steps, Cell, Space } from '@turing/react-native-ui'
 
 const BasicDemo: React.FC = () => {
   return (

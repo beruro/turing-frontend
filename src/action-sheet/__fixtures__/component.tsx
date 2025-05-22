@@ -5,7 +5,7 @@
 
 import React, { useState } from 'react'
 
-import { Cell, ActionSheet } from '@fruits-chain/react-native-xiaoshu'
+import { Cell, ActionSheet } from '@turing/react-native-ui'
 
 const ActionSheetComponent: React.FC = () => {
   const [state, setState] = useState({

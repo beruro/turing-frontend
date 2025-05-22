@@ -4,7 +4,7 @@
  */
 
 import React, { useRef } from 'react'
-import type { FormInstance } from '@fruits-chain/react-native-xiaoshu'
+import type { FormInstance } from '@turing/react-native-ui'
 import {
   Card,
   Form,
@@ -12,7 +12,7 @@ import {
   Button,
   Toast,
   Space,
-} from '@fruits-chain/react-native-xiaoshu'
+} from '@turing/react-native-ui'
 
 const BasicFormRef: React.FC = () => {
   const FormRef = useRef<FormInstance>(null)

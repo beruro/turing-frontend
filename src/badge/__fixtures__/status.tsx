@@ -5,7 +5,7 @@
 
 import React from 'react'
 import { Text } from 'react-native'
-import { Badge, Card, Space } from '@fruits-chain/react-native-xiaoshu'
+import { Badge, Card, Space } from '@turing/react-native-ui'
 
 import BadgeDemoItem from './component/item'
 

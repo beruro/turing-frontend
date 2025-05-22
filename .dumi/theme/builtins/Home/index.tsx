@@ -1,5 +1,6 @@
-import { memo } from 'react'
-import Image from '../../../../snapshoot.png'
+import React, { memo } from 'react'
+// 使用require导入图片，避免TypeScript错误
+const Image = require('../../../../snapshoot.png');
 
 import './index.less'
 

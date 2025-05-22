@@ -5,7 +5,7 @@
 
 import React from 'react'
 
-import { Cell, Toast } from '@fruits-chain/react-native-xiaoshu'
+import { Cell, Toast } from '@turing/react-native-ui'
 
 const CellBase: React.FC = () => {
   return (

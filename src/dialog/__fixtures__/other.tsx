@@ -5,7 +5,7 @@
 
 import React, { useState } from 'react'
 
-import { Cell, Dialog } from '@fruits-chain/react-native-xiaoshu'
+import { Cell, Dialog } from '@turing/react-native-ui'
 
 const BasicDialogOther: React.FC = () => {
   const [state, setState] = useState({

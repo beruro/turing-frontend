@@ -4,7 +4,7 @@
  */
 
 import React, { useState } from 'react'
-import { Cell, Field } from '@fruits-chain/react-native-xiaoshu'
+import { Cell, Field } from '@turing/react-native-ui'
 
 const options = new Array(2).fill(0).map((_, index) => ({
   value: index,

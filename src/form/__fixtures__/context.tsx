@@ -11,7 +11,7 @@ import {
   Field,
   Button,
   Space,
-} from '@fruits-chain/react-native-xiaoshu'
+} from '@turing/react-native-ui'
 
 const FormOne: React.FC = () => {
   const [form] = Form.useForm()

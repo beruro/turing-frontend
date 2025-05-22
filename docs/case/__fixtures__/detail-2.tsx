@@ -5,7 +5,7 @@
 
 import React, { useState, useCallback } from 'react'
 
-import { Progress, Button } from '@fruits-chain/react-native-xiaoshu'
+import { Progress, Button } from '@turing/react-native-ui'
 
 const CaseDetail2: React.FC = () => {
   const [loading, setLoading] = useState(false)

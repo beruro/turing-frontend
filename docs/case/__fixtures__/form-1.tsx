@@ -17,7 +17,7 @@ import {
   Divider,
   Dialog,
   Theme,
-} from '@fruits-chain/react-native-xiaoshu'
+} from '@turing/react-native-ui'
 
 // App 端使用 react-native-keyboard-aware-scroll-view 代替 ScrollView
 

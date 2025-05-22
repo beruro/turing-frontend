@@ -10,7 +10,7 @@ import {
   Card,
   Space,
   Divider,
-} from '@fruits-chain/react-native-xiaoshu'
+} from '@turing/react-native-ui'
 import { DoubleArrowClockwiseOutline } from '@fruits-chain/icons-react-native'
 import { Animated, ColorValue } from 'react-native'
 

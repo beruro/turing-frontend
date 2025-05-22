@@ -12,7 +12,7 @@ import {
   Toast,
   Dialog,
   Space,
-} from '@fruits-chain/react-native-xiaoshu'
+} from '@turing/react-native-ui'
 import { DeleteFill } from '@fruits-chain/icons-react-native'
 
 const BasicFormList: React.FC = () => {

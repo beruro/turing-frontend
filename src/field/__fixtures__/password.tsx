@@ -4,7 +4,7 @@
  */
 
 import React from 'react'
-import { Cell, Field } from '@fruits-chain/react-native-xiaoshu'
+import { Cell, Field } from '@turing/react-native-ui'
 
 const BasicFieldTextInput: React.FC = () => {
   return (

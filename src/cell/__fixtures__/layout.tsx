@@ -5,7 +5,7 @@
 
 import React from 'react'
 
-import { Cell } from '@fruits-chain/react-native-xiaoshu'
+import { Cell } from '@turing/react-native-ui'
 
 const CellLayout: React.FC = () => {
   return (

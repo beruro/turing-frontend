@@ -5,7 +5,7 @@
 
 import React from 'react'
 
-import { Blank, Card, Space, Button } from '@fruits-chain/react-native-xiaoshu'
+import { Blank, Card, Space, Button } from '@turing/react-native-ui'
 
 const BasicSpaceSize: React.FC = () => {
   return (

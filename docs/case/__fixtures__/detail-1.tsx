@@ -17,7 +17,7 @@ import {
   Theme,
   Dialog,
   Toast,
-} from '@fruits-chain/react-native-xiaoshu'
+} from '@turing/react-native-ui'
 
 const CaseDetail1: React.FC = () => {
   const TOKENS = Theme.useThemeTokens()

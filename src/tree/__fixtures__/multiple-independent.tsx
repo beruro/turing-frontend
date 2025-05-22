@@ -6,8 +6,8 @@
 import React from 'react'
 import { CoordOutline } from '@fruits-chain/icons-react-native'
 
-import type { TreeOption } from '@fruits-chain/react-native-xiaoshu'
-import { Card, Tree } from '@fruits-chain/react-native-xiaoshu'
+import type { TreeOption } from '@turing/react-native-ui'
+import { Card, Tree } from '@turing/react-native-ui'
 
 const options: TreeOption[] = new Array(7).fill(0).map((_, index0) => ({
   value: index0,

@@ -19,7 +19,7 @@ import {
   ElevatorNav,
   Button,
   TextInput,
-} from '@fruits-chain/react-native-xiaoshu'
+} from '@turing/react-native-ui'
 
 // const CustomKeyboardAwareScrollView = forwardRef<
 //   ScrollView,

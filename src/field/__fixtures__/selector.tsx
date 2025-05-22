@@ -5,7 +5,7 @@
 
 import React, { useState } from 'react'
 import { Text } from 'react-native'
-import { Cell, Field, TreeOption } from '@fruits-chain/react-native-xiaoshu'
+import { Cell, Field, TreeOption } from '@turing/react-native-ui'
 
 const options = new Array(6).fill(0).map((_, index) => ({
   value: index,

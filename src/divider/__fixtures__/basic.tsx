@@ -6,7 +6,7 @@
 import React from 'react'
 import { ScrollView, View } from 'react-native'
 
-import { Divider, Space, Card } from '@fruits-chain/react-native-xiaoshu'
+import { Divider, Space, Card } from '@turing/react-native-ui'
 
 const BasicDivider: React.FC = () => {
   return (

@@ -5,7 +5,7 @@
 
 import React, { useState } from 'react'
 
-import { StepSelector, Cell } from '@fruits-chain/react-native-xiaoshu'
+import { StepSelector, Cell } from '@turing/react-native-ui'
 import { Text } from 'react-native'
 
 const request = (pId: string, index: number) =>

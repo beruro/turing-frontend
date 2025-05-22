@@ -3,7 +3,7 @@
  * description: 在内部放置一个、多个按钮。
  */
 import { StyleSheet } from 'react-native'
-import { ButtonBar, Button, Space } from '@fruits-chain/react-native-xiaoshu'
+import { ButtonBar, Button, Space } from '@turing/react-native-ui'
 import { PlusOutline } from '@fruits-chain/icons-react-native'
 
 const ButtonBarBase = () => {

@@ -1,4 +1,4 @@
-import { Provider, Theme } from '@fruits-chain/react-native-xiaoshu'
+import { Provider, Theme } from '@turing/react-native-ui'
 import { useOutlet, usePrefersColor } from 'dumi'
 import React from 'react'
 

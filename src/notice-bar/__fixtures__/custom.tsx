@@ -9,7 +9,7 @@ import {
   VolumeOutline,
   WarningCircleOutline,
 } from '@fruits-chain/icons-react-native'
-import { NoticeBar, Space } from '@fruits-chain/react-native-xiaoshu'
+import { NoticeBar, Space } from '@turing/react-native-ui'
 
 const NoticeBarCustom = () => {
   return (

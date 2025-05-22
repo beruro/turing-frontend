@@ -6,14 +6,14 @@
 import React, { useState } from 'react'
 import { ScrollView } from 'react-native'
 
-import type { UploaderValue } from '@fruits-chain/react-native-xiaoshu'
+import type { UploaderValue } from '@turing/react-native-ui'
 import {
   Card,
   Uploader,
   Toast,
   Dialog,
   Space,
-} from '@fruits-chain/react-native-xiaoshu'
+} from '@turing/react-native-ui'
 import {
   ArrowUpOutline,
   ArrowDownOutline,

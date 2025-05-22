@@ -12,7 +12,7 @@ import {
   Button,
   TextInput,
   ButtonBar,
-} from '@fruits-chain/react-native-xiaoshu'
+} from '@turing/react-native-ui'
 
 const BasicPopupKeyboardShim: React.FC = () => {
   const [visible, setVisible] = useState(false)

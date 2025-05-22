@@ -5,7 +5,7 @@
 
 import React, { useState } from 'react'
 
-import { Cell, NumberInput } from '@fruits-chain/react-native-xiaoshu'
+import { Cell, NumberInput } from '@turing/react-native-ui'
 
 const consoleNum = (n: number) => {
   console.log('[新数据]  ->  ', n)

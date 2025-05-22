@@ -15,7 +15,7 @@ import {
   ButtonBar,
   Button,
   Theme,
-} from '@fruits-chain/react-native-xiaoshu'
+} from '@turing/react-native-ui'
 
 const CaseList1: React.FC = () => {
   const TOKENS = Theme.useThemeTokens()

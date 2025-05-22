@@ -1,5 +1,5 @@
 import React from 'react'
-import { Space } from '@fruits-chain/react-native-xiaoshu'
+import { Space } from '@turing/react-native-ui'
 
 import Base from './base'
 import Ref from './ref'

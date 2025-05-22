@@ -10,7 +10,7 @@ import {
   Card,
   Space,
   Divider,
-} from '@fruits-chain/react-native-xiaoshu'
+} from '@turing/react-native-ui'
 
 const ButtonDisabled: React.FC = () => {
   return (

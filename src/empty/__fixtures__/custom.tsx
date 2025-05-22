@@ -3,7 +3,7 @@
  * description: 根据自身需求自定义组件。
  */
 
-import { Empty, Flex, Space, Theme } from '@fruits-chain/react-native-xiaoshu'
+import { Empty, Flex, Space, Theme } from '@turing/react-native-ui'
 import { Text, View } from 'react-native'
 
 const EmptyCustom = () => {

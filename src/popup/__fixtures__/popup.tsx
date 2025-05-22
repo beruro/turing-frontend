@@ -6,14 +6,14 @@
 import React, { useState } from 'react'
 import { Text } from 'react-native'
 
-import type { PopupPosition } from '@fruits-chain/react-native-xiaoshu'
+import type { PopupPosition } from '@turing/react-native-ui'
 import {
   Space,
   Popup,
   Card,
   Button,
   TextInput,
-} from '@fruits-chain/react-native-xiaoshu'
+} from '@turing/react-native-ui'
 
 const positions: PopupPosition[] = ['center', 'left', 'right', 'top', 'bottom']
 

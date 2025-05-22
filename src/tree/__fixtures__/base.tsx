@@ -10,8 +10,8 @@ import {
   TimeCircleOutline,
 } from '@fruits-chain/icons-react-native'
 
-import type { TreeOption } from '@fruits-chain/react-native-xiaoshu'
-import { Card, Switch, Theme, Tree } from '@fruits-chain/react-native-xiaoshu'
+import type { TreeOption } from '@turing/react-native-ui'
+import { Card, Switch, Theme, Tree } from '@turing/react-native-ui'
 
 const defaultExpandedValues = [0, 210, 112]
 

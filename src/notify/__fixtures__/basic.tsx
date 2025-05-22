@@ -6,7 +6,7 @@
 import React, { useState } from 'react'
 import { ScrollView } from 'react-native'
 
-import { Cell, Notify } from '@fruits-chain/react-native-xiaoshu'
+import { Cell, Notify } from '@turing/react-native-ui'
 
 const BasicNotify: React.FC = () => {
   const [state, setState] = useState({

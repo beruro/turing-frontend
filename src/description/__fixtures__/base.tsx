@@ -13,7 +13,7 @@ import {
   Button,
   Uploader,
   Theme,
-} from '@fruits-chain/react-native-xiaoshu'
+} from '@turing/react-native-ui'
 
 const list = [
   {

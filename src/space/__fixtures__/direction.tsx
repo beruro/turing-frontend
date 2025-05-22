@@ -6,7 +6,7 @@
 import React from 'react'
 import { Text } from 'react-native'
 
-import { Blank, Card, Space, Button } from '@fruits-chain/react-native-xiaoshu'
+import { Blank, Card, Space, Button } from '@turing/react-native-ui'
 
 const BasicSpaceDirection: React.FC = () => {
   return (

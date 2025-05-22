@@ -11,7 +11,7 @@ import {
   Button,
   Toast,
   Space,
-} from '@fruits-chain/react-native-xiaoshu'
+} from '@turing/react-native-ui'
 
 const BasicFormUseFormInstanceSub = () => {
   const form = Form.useFormInstance()

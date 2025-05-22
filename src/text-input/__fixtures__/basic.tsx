@@ -6,7 +6,7 @@
 import React, { useState } from 'react'
 import { Text, View } from 'react-native'
 
-import { Cell, TextInput, Button } from '@fruits-chain/react-native-xiaoshu'
+import { Cell, TextInput, Button } from '@turing/react-native-ui'
 import { SuccessOutline } from '@fruits-chain/icons-react-native'
 
 const BasicTextInput: React.FC = () => {

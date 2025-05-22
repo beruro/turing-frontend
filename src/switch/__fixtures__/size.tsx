@@ -5,7 +5,7 @@
 
 import React from 'react'
 
-import { Switch, Space } from '@fruits-chain/react-native-xiaoshu'
+import { Switch, Space } from '@turing/react-native-ui'
 import { Text } from 'react-native'
 
 const BasicSwitchSize: React.FC = () => {

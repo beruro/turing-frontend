@@ -58,7 +58,7 @@ export const portal = new PortalGuard()
  * ```js
  * import * as React from 'react';
  * import { Text } from 'react-native';
- * import { Portal } from '@fruits-chain/react-native-xiaoshu';
+ * import { Portal } from '@turing/react-native-ui';
  *
  * export default class MyComponent extends React.Component {
  *   render() {

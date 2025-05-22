@@ -6,7 +6,7 @@
 import React from 'react'
 import { ScrollView, View } from 'react-native'
 
-import { WaterMark, Blank, Space } from '@fruits-chain/react-native-xiaoshu'
+import { WaterMark, Blank, Space } from '@turing/react-native-ui'
 
 const UploaderBase: React.FC = () => {
   return (

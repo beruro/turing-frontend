@@ -5,7 +5,7 @@
 
 import React, { useState } from 'react'
 
-import { Switch, Space } from '@fruits-chain/react-native-xiaoshu'
+import { Switch, Space } from '@turing/react-native-ui'
 
 const BasicSwitchBase: React.FC = () => {
   const [state, setState] = useState(false)

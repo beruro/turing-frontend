@@ -6,7 +6,7 @@ import {
   ButtonBar,
   Space,
   ButtonBarProps,
-} from '@fruits-chain/react-native-xiaoshu'
+} from '@turing/react-native-ui'
 
 const buttons: ButtonBarProps['buttons'] = [
   {

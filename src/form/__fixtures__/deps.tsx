@@ -4,7 +4,7 @@
  */
 
 import React from 'react'
-import { Card, Form, Field } from '@fruits-chain/react-native-xiaoshu'
+import { Card, Form, Field } from '@turing/react-native-ui'
 
 let index = 0
 

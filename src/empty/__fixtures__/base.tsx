@@ -3,7 +3,7 @@
  * description: 简单的展示。
  */
 
-import { Empty } from '@fruits-chain/react-native-xiaoshu'
+import { Empty } from '@turing/react-native-ui'
 
 const EmptyBase = () => {
   return <Empty />
