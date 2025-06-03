@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkturing_react_native_ui=self.webpackChunkturing_react_native_ui||[]).push([[1032],{11297:function(m,e,_){_.r(e);var u=_(5574),t=_.n(u),r=_(53428),n=_(5673),P=_(67294),o=_(85893),a=function(l){var f=l.children,d=(0,n.pC)(),i=(0,n.OI)(),s=t()(i,1),E=s[0];return(0,o.jsx)(r.Provider,{theme:E==="dark"?r.Theme.dark:void 0,children:d})};e.default=a}}]);
