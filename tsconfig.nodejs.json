@@ -12,6 +12,8 @@
     "jsx": "react-jsx",
     "module": "commonjs",
     "isolatedModules": false,
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false
   }
 }

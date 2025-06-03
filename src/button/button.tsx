@@ -13,6 +13,7 @@ import Loading from '../loading'
 import Theme from '../theme'
 
 import type { ButtonProps } from './interface'
+import { ButtonIconSparkle } from './icons'
 import { varCreator, styleCreator } from './style'
 
 /**
@@ -63,6 +64,10 @@ const Button: React.FC<ButtonProps> = ({
   const [_backgroundColor, _borderColor, _textColor, _borderWidth] =
     useMemo(() => {
       switch (type) {
+        case 'create': {
+          return [CV.button_create_color, CV.button_create_color, textColor, 0]
+        }
+
         case 'hazy': {
           const hazyColor = Color(color)
             .lightness(CV.button_hazy_lightness)
@@ -99,6 +104,7 @@ const Button: React.FC<ButtonProps> = ({
       CV.button_border_color,
       CV.button_ghost_background_color,
       CV.button_hazy_lightness,
+      CV.button_create_color,
       color,
       textColor,
       type,
@@ -129,7 +135,7 @@ const Button: React.FC<ButtonProps> = ({
     {
       fontSize: CV[`button_${size}_font_size`],
       color: _textColor,
-      marginLeft: renderLeftIcon ? CV.button_icon_gap : 0,
+      marginLeft: renderLeftIcon || type === 'create' ? CV.button_icon_gap : 0,
     },
   ])
 
@@ -153,7 +159,11 @@ const Button: React.FC<ButtonProps> = ({
   ) : (
     <>
       <Flex direction="row" align="center" justify="center">
-        {renderLeftIcon ? renderLeftIcon(iconColor, iconSize) : null}
+        {renderLeftIcon
+          ? renderLeftIcon(iconColor, iconSize)
+          : type === 'create'
+            ? <ButtonIconSparkle color={iconColor} width={iconSize} height={iconSize} />
+            : null}
         <Text style={textStyleSummary} numberOfLines={1}>
           {!isNil(text) ? text : children}
         </Text>

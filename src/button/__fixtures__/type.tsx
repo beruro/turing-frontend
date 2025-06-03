@@ -1,16 +1,14 @@
 /**
  * title: 按钮类型
- * description: 按钮有五种类型：主按钮（默认）、朦胧按钮、边框按钮、幽灵按钮和链接按钮。
+ * description: 按钮有六种类型：主按钮（默认）、创建按钮、朦胧按钮、边框按钮、幽灵按钮和链接按钮。
  */
 
 import React, { memo } from 'react'
 
-import {
-  Button,
-  Card,
-  Space,
-  Divider,
-} from 'turing-react-native-ui'
+import Button from '../../button'
+import Card from '../../card'
+import Space from '../../space'
+import Divider from '../../divider'
 
 const onPress = () => {
   console.log('点击按钮 => ', new Date().getTime())
@@ -28,6 +26,11 @@ const ButtonType: React.FC = () => {
             onPressDebounceWait={500}
           />
           <Button
+            type="create"
+            text="create 创建按钮"
+            onPress={onPress}
+          />
+          <Button
             type="hazy"
             text="hazy 朦胧按钮"
             onPress={onPress}
@@ -42,6 +45,7 @@ const ButtonType: React.FC = () => {
 
         <Space direction="horizontal" wrap>
           <Button type="primary" text="primary" onPress={onPress} />
+          <Button type="create" text="create" onPress={onPress} />
           <Button type="hazy" text="hazy" onPress={onPress} />
           <Button type="outline" text="outline" onPress={onPress} />
           <Button type="ghost" text="ghost" onPress={onPress} />

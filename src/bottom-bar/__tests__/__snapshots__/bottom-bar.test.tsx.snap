@@ -2,16 +2,21 @@
 
 exports[`Blank render snapshot 1`] = `
 <View
-  collapsable={false}
   style={
-    {
-      "backgroundColor": "#FFFFFF",
-      "borderTopColor": "#EFF3F9",
-      "borderTopWidth": 1,
-      "height": 50,
-      "overflow": "hidden",
-      "paddingBottom": 0,
-    }
+    [
+      {
+        "backgroundColor": "#FFFFFF",
+        "borderTopColor": "#EFF3F9",
+        "borderTopWidth": 1,
+        "height": {
+          "interpolate": [MockFunction],
+          "setValue": [MockFunction],
+        },
+        "overflow": "hidden",
+        "paddingBottom": 0,
+      },
+      undefined,
+    ]
   }
 >
   <Text>

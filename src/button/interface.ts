@@ -13,7 +13,7 @@ import type { ButtonTheme } from './style'
 
 export interface ButtonProps
   extends Omit<TouchableHighlightProps, 'underlayColor' | 'activeOpacity'>,
-    Pick<LoadingProps, 'loadingIcon'> {
+  Pick<LoadingProps, 'loadingIcon'> {
   theme?: Partial<ButtonTheme>
   /**
    * 按钮文案
@@ -40,7 +40,7 @@ export interface ButtonProps
    * 类型
    * @default 'primary'
    */
-  type?: 'primary' | 'hazy' | 'outline' | 'ghost' | 'link'
+  type?: 'primary' | 'hazy' | 'outline' | 'ghost' | 'link' | 'create'
 
   /**
    * 设置危险按钮
@@ -108,7 +108,7 @@ export interface ButtonProps
 
 export interface ButtonOptionProps
   extends Omit<TouchableHighlightProps, 'underlayColor' | 'activeOpacity'>,
-    Pick<ButtonProps, 'text' | 'textStyle' | 'size' | 'hairline' | 'round'> {
+  Pick<ButtonProps, 'text' | 'textStyle' | 'size' | 'hairline' | 'round'> {
   theme?: Partial<ButtonTheme>
   /**
    * 是否选中、高亮
@@ -198,3 +198,5 @@ export interface ButtonOptionGroupProps<TValue = any>
    */
   deselect?: boolean
 }
+
+export type ButtonType = 'primary' | 'outline' | 'ghost' | 'link' | 'hazy' | 'create'

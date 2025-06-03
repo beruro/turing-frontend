@@ -15,9 +15,10 @@ group:
 
 标记了一个操作命令，响应用户点击行为，触发相应的业务逻辑。
 
-TuringUI提供了五种（type）按钮。
+TuringUI提供了六种（type）按钮。
 
 - 主按钮（默认 `type="primary"`）：用于主行动点，一个操作区域只能有一个主按钮。
+- 创建按钮（`type="create"`）：用于创建操作，带有闪光图标。支持通过主题配置不同app的颜色。
 - 朦胧按钮（`type="hazy"`）：用于没有主次之分的一组行动点。
 - 边框按钮（`type="outline"`）：常用于添加操作。
 - 幽灵按钮（`type="ghost"`）：用于背景色比较复杂的地方。
@@ -40,6 +41,10 @@ TuringUI提供了五种（type）按钮。
 ## 代码演示
 
 <code src="./__fixtures__/type.tsx"></code>
+
+<code src="./__fixtures__/create-button-example.tsx"></code>
+
+<code src="./__fixtures__/create-button-themes.tsx"></code>
 
 <code src="./__fixtures__/subtext.tsx"></code>
 
@@ -69,7 +74,7 @@ TuringUI提供了五种（type）按钮。
 | subtext             | 按钮子文案            | `string`                                                               | -                      | -    |
 | textStyle           | 文字自定义样式        | `StyleProp<TextStyle>`                                                 | -                      | -    |
 | size                | 大小                  | `'xl'\|'l'\|'m'\|'s'\|'xs'`                                            | `'l'`                  | -    |
-| type                | 类型                  | `'primary'\|'hazy'\|'outline'\|'ghost'\|'link'`                        | `'primary'`            | -    |
+| type                | 类型                  | `'primary'\|'hazy'\|'outline'\|'ghost'\|'link'\|'create'`              | `'primary'`            | -    |
 | danger              | 设置危险按钮          | `boolean`                                                              | `false`                | -    |
 | hairline            | 细边框                | `boolean`                                                              | `false`                | -    |
 | disabled            | 是否禁用按钮          | `boolean`                                                              | `false`                | -    |
@@ -144,12 +149,25 @@ TuringUI提供了五种（type）按钮。
 | button_ghost_background_color       | 'transparent'            | -    |
 | button_hazy_lightness               | 95                       | -    |
 | button_icon_gap                     | `TOKENS.space_1`         | -    |
+| button_text_color                   | `TOKENS.white`           | -    |
 | button_subtext_line_height          | 20                       | -    |
 | button_subtext_font_size            | 13                       | -    |
 | button_subtext_opacity              | 0.7                      | -    |
+| button_create_color                 | '#7662EC'                | Create button color (DreamLux default) |
+| button_create_color_dreamlux        | '#7662EC'                | DreamLux app create button color |
+| button_create_color_groovo          | '#FF6B35'                | Groovo app create button color |
+| button_create_color_fluenty         | '#00D4AA'                | Fluenty app create button color |
 | button_option_min_width             | 62                       | -    |
 | button_option_badge_margin_left     | `TOKENS.space_1`         | -    |
 | button_option_badge_text_font_size  | `TOKENS.font_size_3`     | -    |
 | button_option_badge_text_color      | `TOKENS.red_6`           | -    |
 | button_option_disabled_border_color | `TOKENS.gray_4`          | -    |
 | button_option_disabled_text_color   | `TOKENS.gray_5`          | -    |
+
+## 使用不同APP主题
+
+在实际项目中，你可以根据不同的app使用相应的主题配置：
+
+<code src="./__fixtures__/app-theme-usage.tsx"></code>
+
+你也可以手动配置主题，只需要在theme属性中传入包含 `button_create_color` 的对象即可。详细使用方法请参考上面的示例代码。

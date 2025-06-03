@@ -16,7 +16,8 @@ export type { BottomBarProps } from './bottom-bar/interface'
 export { default as BottomBar } from './bottom-bar'
 
 export type { ButtonProps } from './button/interface'
-export { default as Button } from './button'
+export { default as Button, APP_THEMES, getAppTheme, createAppTheme } from './button'
+export type { AppThemeKey } from './button'
 
 export type { ButtonBarProps } from './button-bar/interface'
 export { default as ButtonBar } from './button-bar'
