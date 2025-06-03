@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.1.5](https://github.com/beruro/turing-frontend/compare/v0.1.4...v0.1.5) (2025-06-03)
+
+### Features
+
+- add create button with multi-app theme support ([bdaa671](https://github.com/beruro/turing-frontend/commit/bdaa671f2b443f8aaa325380537a64e935f7857f))
+
 ## [0.1.4](https://github.com/beruro/turing-frontend/compare/v0.1.3...v0.1.4) (2025-05-22)
 
 ### Bug Fixes
